@@ -1,0 +1,14 @@
+ChromeOptions class
+EdgeOptions class
+FirefoxOptions class
+
+
+ChromeOptions
+--------------
+  1)Headless testing: Run the test cases but it will execute in the backend.
+   I wont see anything in the UI.And we will get the final output.
+   Steps--Headless testing:
+   1st step: Create ChromeOptions object
+   2nd step: call one method i.e, addArguments setup
+   3rd step: pass the options object into chromedriver
+   
